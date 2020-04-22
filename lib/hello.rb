@@ -1,7 +1,7 @@
 def hello_t(array)
   i = 0
   if block_given?
-  puts "Hi, #{name}"
+  puts "Hi, #{array}"
     while i < array.length
       yield array[i]
        i = i + 1
