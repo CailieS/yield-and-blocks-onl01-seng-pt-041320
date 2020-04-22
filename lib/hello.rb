@@ -7,7 +7,8 @@ def hello_t(array)
     puts #{array}
     end
   array
-else 
+  else 
+  puts "Hello"
  end
 end
 
