@@ -10,7 +10,7 @@ end
 # call your method here!
 ["Tim", "Tom", "Jim"]
 hello_t(["Tim", "Tom", "Jim"]) do |name|
-  if block_given?("T")
+  if block_given?
     puts "Hi, #{name}"
   end
 end
