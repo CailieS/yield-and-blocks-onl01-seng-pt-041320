@@ -6,6 +6,7 @@ def hello_t(array)
        i = i + 1
   else 
     puts #{array}
+    
     end
 
    array
