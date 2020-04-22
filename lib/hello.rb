@@ -4,10 +4,10 @@ def hello_t(array)
     while i < array.length
       yield array[i]
        i = i + 1
-  else 
     puts #{array}
     end
   array
+else 
  end
 end
 
